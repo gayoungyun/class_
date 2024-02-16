@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MainClass003 {
 	public static void main(String[] args) {
-		ArrayList<num> arr = new ArrayList<>();
+		//ArrayList<num> arr = new ArrayList<>();
 		/*Scanner input = new Scanner(System.in);
 		int num1, num2;
 		System.out.println("두수 입력");
@@ -19,8 +19,9 @@ public class MainClass003 {
 		}
 		*/
 		TestClass003 tc= new TestClass003();
-		int []a = tc.inputData();
-		System.out.println(a[0]);
-		System.out.println(a[1]);
+		tc.inputData();
+		int n= tc.opData();
+		tc.printData(n);
+		
 	}
 }
